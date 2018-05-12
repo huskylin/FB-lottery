@@ -9,8 +9,8 @@ import random
 
 #  Facebook API
 url = 'https://graph.facebook.com/v2.12/'
-FB_token = 'GET_FROM_Graph_API_Explorer'
-fileds = '2104358166245473/comments?filter=stream&limit=1000&order=chronological'
+FB_token = '<GET_FROM_Graph_API_Explorer>'
+fileds = '<Your_Post_ID>/comments?filter=stream&limit=1000&order=chronological'
 
 response = requests.get(url + fileds + FB_token).json()
 
